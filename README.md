@@ -3,6 +3,7 @@ After CentOS 7 end of life maybe you get error when update repo.
 Last version **Centos 7.9.2009** (Same as my case)
 
 Create and fill the file : 
+
 `nano /etc/yum.repos.d/CentOS-Vault.repo`
 
 `nano /etc/yum.repos.d/endpoint.repo`
