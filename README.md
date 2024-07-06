@@ -1,14 +1,15 @@
 
 After CentOS 7 end of life maybe you get error when update repo.
 Last version **Centos 7.9.2009** (Same as my case)
-Create file
-`nano /etc/yum.repos.d/CentOS-Vault.repo`
-Fill the file 
 
-then create file 
+Create and fill the file : 
+`nano /etc/yum.repos.d/CentOS-Vault.repo`
+
 `nano /etc/yum.repos.d/endpoint.repo`
+
 fill the file then update with :
 `yum update`
+
 install git :
 `yum install git`
 
