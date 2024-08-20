@@ -2,6 +2,6 @@
 name=End Point repository
 baseurl=https://packages.endpointdev.com/rhel/$releasever/os/$basearch/
 enabled=1
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-endpoint-7
 protect=0
